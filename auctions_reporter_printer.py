@@ -30,7 +30,7 @@ class AuctionsReporterPrinter(AuctionsReporter):
 
         print "\r\nMonth -> " + str(month) + "\r\n"
 
-        if 0 < month <= 2:
+        if 0 < month <= 3:
             report.append("Report period: 01/01/2015 and 31/03/2015\n")
         elif 3 < month <= 6:
             report.append("Report period: 01/04/2015 and 30/06/2015\n")
